@@ -30,7 +30,7 @@ The InceptionV3 model training run the file InceptionV3-Model Train.py. It can s
 The InceptionV3 model test run the file InceptionV3-Model Test.py. It can test the saved model for accurary.  
     python InceptionV3-Model Test.py  
     
- 
+# Result 
 
 Method  | Accuracy  
 ---- | ----- 
