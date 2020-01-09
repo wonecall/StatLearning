@@ -12,12 +12,23 @@ bottleneck == 1.3.1
 numpy == 1.17.4  
 
 # Run the Codes
-```python data pre-processing.py  
-The instruction of commands has been clearly stated in the codes (see the parser function in Model/utility/parser.py).
-
-python KNN&SVM&Random Forest.py
-python CNN-Model Train.py
-python CNN-Model Test.py
-python InceptionV3-Model Train.py
-python InceptionV3-Model Test.py
+The data pre-processing run the file data pre-processing.py.We adopt Imgaug data enhancement library to augment our dataset. Imgaug is an encapsulated python library for image augmentation that supports keypoint and bounding box transformations. By using this method, we increase the images to 60000.  
+    python data pre-processing.py  
+    
+The KNN,SVM and Random Forest model run the file KNN&SVM&Random Forest.py. 
+    python KNN&SVM&Random Forest.py  
+    
+The CNN model training run the file CNN-Model Train.py. It can save the best model for test.
+    python CNN-Model Train.py  
+    
+The CNN model test run the file CNN-Model Test.py. It can test the saved model for accurary.
+    python CNN-Model Test.py  
+    
+The InceptionV3 model training run the file InceptionV3-Model Train.py. It can save the best model for test. 
+    python InceptionV3-Model Train.py  
+    
+The InceptionV3 model test run the file InceptionV3-Model Test.py. It can test the saved model for accurary.
+    python InceptionV3-Model Test.py  
+    
+# Run the Codes
 
