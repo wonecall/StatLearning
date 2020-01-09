@@ -33,6 +33,10 @@ The InceptionV3 model test run the file InceptionV3-Model Test.py. It can test t
  
 
 Method  | Accuracy  
----- | ----- | ------  
+---- | ----- 
 KNN  | 0.637 
 SVM  | 0.682
+RF  | 0.663 
+CNN | 0.783
+Inception V3 | 0.822
+
